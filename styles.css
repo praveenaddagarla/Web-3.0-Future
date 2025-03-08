@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 2%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Content Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left Content Section */
+.content {
+    width: 65%;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 8px;
+    padding-left:3%;
+}
+
+.left-content img {
+    width: 100%;
+    max-width: 400px; /* Adjust image size */
+    border-radius: 8px;
+}
+
+/* Right Text Section */
+.right-content {
+    max-width: 400px;
+    text-align: left;
+    padding-left: 30px;
+    margin-left:35%;
+    position: relative;
+    top: -140px;
+
+ 
+}
+
+ h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding-left:8%;   
+}
+
+.right-content p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Read More Button */
+button {
+    background-color: rgb(250, 117, 34);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+
+/* Sidebar (Right Section) */
+.sidebar {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding:8px;
+    border-radius: 8px;
+    margin-bottom:10%;
+}
+
+.sidebar h2 {
+    color: orange;
+    font-size: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    line-height:200%;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+/* Articles Section */
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+     position: relative;
+    top: -150px;
+ 
+}
+
+.article {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.article h3 {
+    font-size: 18px;
+    color: rgb(228, 98, 37);
+}
+
+.article p {
+    color: #181111;
+}
